@@ -4,4 +4,4 @@ metadata:
   name: test1
   namespace: implicit-172
 data:
-  test: test
+  test: test2
