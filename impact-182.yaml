@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test1
-  namespace: implicit-182
-data:
-  test: test
