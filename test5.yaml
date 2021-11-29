@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test5
-  namespace: implicit-namespace
-  annotations:
-    client.lifecycle.config.k8s.io/deletion: detach
-data:
-  test: test5
