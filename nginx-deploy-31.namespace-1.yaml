@@ -15,7 +15,7 @@ spec:
         team: cs
       annotations:
         env: staging
-        on-call-priority: low1
+        on-call-priority: urgent-1hour
     spec:
       containers:
       - name: nginx
