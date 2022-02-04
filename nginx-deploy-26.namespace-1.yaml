@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: nginx
+        team: cs
       annotations:
         env: staging
         on-call-priority: low
