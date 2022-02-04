@@ -12,6 +12,9 @@ spec:
     metadata:
       labels:
         app: nginx
+      metadata:
+        env: staging
+        on-call-priority: high
     spec:
       containers:
       - name: nginx
