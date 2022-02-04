@@ -14,7 +14,7 @@ spec:
         app: nginx
       annotations:
         env: staging
-        on-call-priority: high
+        on-call-priority: low
     spec:
       containers:
       - name: nginx
