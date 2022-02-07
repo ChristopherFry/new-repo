@@ -6,12 +6,15 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: nginx-58
+      owner: config-sync
   replicas: 1
   template:
     metadata:
       labels:
-        app: nginx
+        app: nginx-58
+        owner: config-sync
+        on-call-priority: high
     spec:
       containers:
       - name: nginx
